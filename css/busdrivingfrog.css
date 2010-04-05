@@ -1,0 +1,70 @@
+body {
+	font: 16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 700px;
+	margin: auto;
+	background: #fff;
+}
+
+#info {
+    background: url(/i/me.png) no-repeat right top;
+}
+
+h1 {
+    font-size: 36px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: -6px;
+}
+
+a {
+    font-size: 16px;
+}
+
+#p {
+    margin: 0 0 0 15px;
+    padding-top: 30px;
+}
+
+#s {
+    margin: 30px 0 30px 20px;
+}
+
+#s a {
+    display: block;
+    
+	height: 70px;
+	width: 280px;
+	
+	margin-bottom: 8px;
+	padding-left: 90px;
+	padding-bottom: 8px;
+	    
+    font-size: 26px;
+    text-decoration: none;
+    color: #666;
+    line-height: 80px;
+    
+    border-bottom: 1px solid transparent;
+    background-position: 12px 4px;
+    background-repeat: no-repeat;
+}
+
+#s a span {
+    display: none;
+    float: right;
+    font-size: 13px;
+    padding-right: 12px;
+    color: #ccc;
+}
+
+#s a:hover {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#s a:hover span {
+    display: inline;
+}
+
+#s .t  { background-image: url(/i/twitter.png); }
+#s .l  { background-image: url(/i/lastfm.png);  }
+#s .in { background-image: url(/i/in.png);      }

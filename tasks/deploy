@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll && rsync -avz --delete _site/ ts-coldheart:/home/hosting/static/projects/colemando/public
